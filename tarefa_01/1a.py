@@ -26,7 +26,7 @@ def main():
         if img.size == 0:
             raise Exception()
     except:
-        print("Insira o caminho de uma imgem válida!")
+        print("Insira o caminho de uma imagem válida!")
         return -1
     split_channel(img)
 
